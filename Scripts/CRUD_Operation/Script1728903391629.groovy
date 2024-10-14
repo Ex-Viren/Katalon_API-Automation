@@ -17,10 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-ResponseUsers = WS.sendRequest(findTestObject('RestReqServices/ListUsers'))
+WS.sendRequestAndVerify(findTestObject('RestReqServices/CreateUser'))
 
-WS.verifyResponseStatusCode(ResponseUsers, 200)
+WS.sendRequestAndVerify(findTestObject('RestReqServices/ListUsers'))
 
-WS.verifyElementPropertyValue(ResponseUsers, 'data[1].first_name', 'Lindsay')
+WS.sendRequestAndVerify(findTestObject('RestReqServices/UpdateUser'))
 
+WS.sendRequestAndVerify(findTestObject('RestReqServices/DeleteUser'))
 

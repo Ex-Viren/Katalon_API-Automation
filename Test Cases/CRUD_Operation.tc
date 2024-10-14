@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>POST,GET,PUT,DELETE method</description>
+   <name>CRUD_Operation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3a032e49-e68f-4b3a-a034-e03ea29892af</testCaseGuid>
+</TestCaseEntity>
