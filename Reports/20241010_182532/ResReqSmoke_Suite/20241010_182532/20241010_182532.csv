@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ResReqSmoke_Suite,,,,10-10-2024 18:25:40,10-10-2024 18:25:43,3.043s,PASSED
+,,,,,,,
+Test Cases/ReqResSmokeTests/Test_ListUsers,,,,10-10-2024 18:25:40,10-10-2024 18:25:43,2.647s,PASSED
+"ResponseUsers = sendRequest(findTestObject(""RestReqServices/ListUsers""))",,,,10-10-2024 18:25:40,10-10-2024 18:25:42,2.255s,PASSED
+"verifyResponseStatusCode(ResponseUsers, 200)",,,,10-10-2024 18:25:42,10-10-2024 18:25:42,0.023s,PASSED
+"verifyElementPropertyValue(ResponseUsers, ""data[0].first_name"", ""Michael"")",,,,10-10-2024 18:25:42,10-10-2024 18:25:43,0.178s,PASSED

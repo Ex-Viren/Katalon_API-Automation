@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ResReqSmoke_Suite" time="3.043" tests="1" failures="0" errors="0">
+   <testsuite name="ResReqSmoke_Suite" tests="1" failures="0" errors="0" time="3.043" skipped="0" timestamp="10-10-2024T18:25:40" hostname="VXChauhan - host.docker.internal" id="Test Suites/ResReqSmoke_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Projects\\Katalon_API-Automation\\Reports\\20241010_182532\\ResReqSmoke_Suite\\20241010_182532"/>
+         <property name="logFiles" value="C:\\Projects\\Katalon_API-Automation\\Reports\\20241010_182532\\ResReqSmoke_Suite\\20241010_182532\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="VXChauhan - host.docker.internal"/>
+         <property name="hostAddress" value="172.19.0.20"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+      </properties>
+      <testcase name="Test Cases/ReqResSmokeTests/Test_ListUsers" time="2.647" classname="Test Cases/ReqResSmokeTests/Test_ListUsers" status="PASSED">
+         <system-out><![CDATA[10-10-2024T18:25:40 - [TEST_CASE][PASSED] - Test Cases/ReqResSmokeTests/Test_ListUsers: Test Cases/ReqResSmokeTests/Test_ListUsers
+
+10-10-2024T18:25:40 - [TEST_STEP][PASSED] - ResponseUsers = sendRequest(findTestObject("RestReqServices/ListUsers")): Send request successfully
+
+10-10-2024T18:25:42 - [MESSAGE][INFO] - HAR: C:\Projects\Katalon_API-Automation\Reports\20241010_182532\ResReqSmoke_Suite\20241010_182532\requests\main\0.har
+
+10-10-2024T18:25:42 - [MESSAGE][PASSED] - Send request successfully
+
+10-10-2024T18:25:42 - [TEST_STEP][PASSED] - verifyResponseStatusCode(ResponseUsers, 200): Verify response status code successfully
+
+10-10-2024T18:25:42 - [MESSAGE][PASSED] - Verify response status code successfully
+
+10-10-2024T18:25:42 - [TEST_STEP][PASSED] - verifyElementPropertyValue(ResponseUsers, "data[0].first_name", "Michael"): Verify element property value successfully
+
+10-10-2024T18:25:43 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-10-2024T18:25:40 - [TEST_SUITE][PASSED] - ResReqSmoke_Suite: Test Cases/ReqResSmokeTests/Test_ListUsers]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

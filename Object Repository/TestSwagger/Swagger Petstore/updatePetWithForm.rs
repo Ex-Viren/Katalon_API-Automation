@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>updatePetWithForm</name>
+   <tag></tag>
+   <elementGuidId>e74c65b1-a0e7-4903-9aa3-e0a84d6ae8c2</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;parameters&quot;: [
+    {
+      &quot;name&quot;: &quot;name&quot;
+    },
+    {
+      &quot;name&quot;: &quot;status&quot;
+    }
+  ]
+}</httpBodyContent>
+   <httpBodyType>x-www-form-urlencoded</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>050307f1-fc1f-4f95-8256-bd116b8d0b69</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-type</name>
+      <type>Main</type>
+      <value>application/xml</value>
+      <webElementGuid>2f265607-860e-416e-b77c-6ca05c9b5217</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/x-www-form-urlencoded</value>
+      <webElementGuid>b53bdc5f-9746-423d-b2c2-6456272f1fe8</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>9.7.2</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path>/pet/{petId}</path>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://petstore.swagger.io/v2/pet/${petId}</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2abca29a-8b1c-44f7-84de-6963eb962d7d</id>
+      <masked>false</masked>
+      <name>petId</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>
