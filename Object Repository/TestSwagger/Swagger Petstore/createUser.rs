@@ -12,7 +12,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;: 101,\n  \&quot;username\&quot;: \&quot;TestDemo\&quot;,\n  \&quot;firstName\&quot;: \&quot;Test\&quot;,\n  \&quot;lastName\&quot;: \&quot;Demo\&quot;,\n  \&quot;email\&quot;: \&quot;testdemo@yopmail.com\&quot;,\n  \&quot;password\&quot;: \&quot;Pass\&quot;,\n  \&quot;phone\&quot;: \&quot;9898098981\&quot;,\n  \&quot;userStatus\&quot;: 1\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;: 101,\n  \&quot;username\&quot;: \&quot;TestDemos\&quot;,\n  \&quot;firstName\&quot;: \&quot;Test\&quot;,\n  \&quot;lastName\&quot;: \&quot;Demo\&quot;,\n  \&quot;email\&quot;: \&quot;testdemo@yopmail.com\&quot;,\n  \&quot;password\&quot;: \&quot;Pass\&quot;,\n  \&quot;phone\&quot;: \&quot;9898098981\&quot;,\n  \&quot;userStatus\&quot;: 1\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
